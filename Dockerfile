@@ -8,8 +8,8 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 # Copy all app files
 COPY streamlit_app.py .
-COPY streamlit_app_tfidf.py .
-COPY main.py .
+#COPY streamlit_app_tfidf.py .
+#COPY main.py .
 
 # Copy the company documents the RAG system searches through
 COPY _data/ ./_data/
