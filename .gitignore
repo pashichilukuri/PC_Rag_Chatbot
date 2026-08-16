@@ -11,18 +11,3 @@ env/
 # Python cache
 __pycache__/
 *.py[cod]
-
-# ChromaDB
-chroma_db/
-chroma/
-*.sqlite
-*.sqlite3
-
-# Streamlit
-.streamlit/secrets.toml
-
-# VS Code
-.vscode/
-
-# Jupyter
-.ipynb_checkpoints/
