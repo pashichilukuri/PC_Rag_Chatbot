@@ -1,13 +1,4 @@
-# Environment / secrets
 .env
-.env.*
-!.env.example
-
-# Python virtual environment
-.venv/
-venv/
-env/
-
-# Python cache
 __pycache__/
-*.py[cod]
+*.pyc
+.DS_Store
