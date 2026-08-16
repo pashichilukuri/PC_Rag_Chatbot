@@ -26,6 +26,3 @@ chroma/
 
 # Jupyter
 .ipynb_checkpoints/
-
-# Private PDF/data files
-_data/
