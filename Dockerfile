@@ -12,7 +12,7 @@ COPY streamlit_app.py .
 #COPY main.py .
 
 # Copy the company documents the RAG system searches through
-COPY data/ ./data
+COPY _data/ ./_data
 
 # TF-IDF version — no model download, starts in under 2 seconds
 # Switch back to streamlit_app.py to use the ChromaDB version locally
